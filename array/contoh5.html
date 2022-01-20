@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mengubah isi array  </title>
+</head>
+<body>
+    <script>
+        // membuat array
+        var products = ["Senter", "Radio", "Antena", "Obeng"];
+        products[2]= "Remote"
+        document.write("<h3>Daftar Produk:</h3>");
+        document.write("<ol>");
+        // menggunakan perulangan untuk mencetak semua isi array
+        products.forEach((data) => {
+            document.write(`<li>${data}</li>`);
+        });
+        document.write("</ol>");
+        document.write("kata yang di ubah :" + data + "<br>")
+    </script>
+</body>
+</html> 

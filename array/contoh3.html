@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mengahapus data array dari belakang </title>
+</head>
+<body>
+    <script>
+        // membuat array
+        var products = ["Senter", "Radio", "Antena", "Obeng"];
+        var popelemenet=products.pop()
+        document.write("<h3>Daftar Produk:</h3>");
+        document.write("<ol>");
+        // menggunakan perulangan untuk mencetak semua isi array
+        products.forEach((data) => {
+            document.write(`<li>${data}</li>`);
+        });
+        document.write("</ol>");
+        document.write("Product yang Di hapus " + popelemenet +"<br>")
+    </script>
+</body>
+</html>

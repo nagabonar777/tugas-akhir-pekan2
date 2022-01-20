@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mengahapus data array dari depan </title>
+</head>
+<body>
+    <script>
+        // membuat array
+        var products = ["Senter", "Radio", "Antena", "Obeng"];
+        var shiftelement=products.shift()
+        document.write("<h3>Daftar Produk:</h3>");
+        document.write("<ol>");
+        // menggunakan perulangan untuk mencetak semua isi array
+        products.forEach((data) => {
+            document.write(`<li>${data}</li>`);
+        });
+        document.write("</ol>");
+        document.write("Benda yang di hapus :" + shiftelement + "<br>")
+    </script>
+</body>
+</html> 
